@@ -2,6 +2,7 @@
 title: "DATA620-W3 Graph Visualization"
 author: "Ana Collado"
 format: html
+theme: cosmo
 embed-resources: true
 editor: visual
 jupyter: python3
