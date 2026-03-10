@@ -137,19 +137,6 @@ Now this plot will be dense enough but focused to include those with most
 connections.
 
 ```{python}
-#--testing function learned on DataCamp course--
-def node_neigh(G,m):
-  nodes= set()
-  for n in graph.nodes():
-    if len(list(graph.neighbors(n))) == m:
-      nodes.add(n)
-  return nodes
-
-test= node_neigh(graph, 238)
-print(test)
-```
-
-```{python}
 plt.figure(figsize= (10,10))
 layout= nx.spring_layout(graph2)
 
@@ -173,9 +160,10 @@ plt.axis("off")
 plt.show()
 ```
 
-The connections are pretty intense but I like the vibe. No labels needed because
-the users are anonymous, so it serves us better as an overview of the clusters
-that form.
+There are many overlapping edges. I do like that the graph requires no labels
+because the users are anonymous and no classifying information is included so,
+in this case, it serves us better as an overview of the clusters in the twitter
+user network.
 
 ```{python}
 #| echo: false
@@ -189,8 +177,8 @@ HTML(f'<img src="data:image/gif;base64,{data}" width="600">')
 ```
 
 There are 9 node clusters in the graph. We don't have information on the actual
-users documented but it would be interesting to see what kind of topics are
-associated with each node cluster.
+users documented as I mentioned, but it would be interesting to see what kind of
+topics are associated with each user and in a macro sence, each node cluster.
 
 There are also what I would call user bridges. The users that connect one node
 cluster to another.
@@ -206,7 +194,7 @@ HTML(f'<img src="data:image/gif;base64,{data}" width="600">')
 ```
 
 Now that I've explored the graph and manipulated it a little bit, to conclude
-the assignment, I'll include a few metrics.
+the assignment with the couple of mentrics of the graph.
 
 ```{python}
 #--degrees for all nodes--
