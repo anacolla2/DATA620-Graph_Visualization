@@ -176,9 +176,9 @@ with open("node_clusters.GIF", "rb") as f:
 HTML(f'<img src="data:image/gif;base64,{data}" width="600">')
 ```
 
-There are 9 node clusters in the graph. We don't have information on the actual
+There are 7 node clusters in the graph. We don't have information on the actual
 users documented as I mentioned, but it would be interesting to see what kind of
-topics are associated with each user and in a macro sence, each node cluster.
+topics are associated with each user and in a macro sense, each node cluster.
 
 There are also what I would call user bridges. The users that connect one node
 cluster to another.
