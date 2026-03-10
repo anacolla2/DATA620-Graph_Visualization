@@ -225,3 +225,7 @@ The diameter calculated is 7. So to get from one User to the other there are 7
 follows or less in between. I'm not sure how to conceptualize that. I don't use
 twitter but I'd assume users follow many people to keep their feeds fresh. It
 seems 7 is not much considering.
+
+## Video Presentation
+
+(will update)
